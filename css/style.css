@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #595959;
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0%;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+header div {
+    width: 40%;
+    padding: 1%;
+}
+#logo {
+    width: 10%;
+}
+nav {
+    width: 50%;
+    margin-left: 5.5%;
+}
+nav ul li {
+    padding: 5%;
+    font-family: Crimson Pro;
+    font-size: 20px;
+}
+nav ul li a {
+    color: #595959;
+}
+a:hover {
+    color: #3fafff;  
+}
+#hed{
+    border:none;
+    height: 20px;
+    
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 2px solid #ffd600;
+      box-shadow: 0 20px 20px -20px #78909c;
+    margin: -50px auto 10px; 
+  } 
+.hero {
+    margin-top: 10%;
+}
+#hero {
+    width: 40%;
+    padding: 12%; 20% 12% 40%;
+    margin-left: 30%;
+}
+.hero div {
+    width: 50%;
+}
+.hero .hero-text {
+    width: 40%; 
+    padding-top: 5%;   
+}
+.hero .hero-text p {
+    width: 65%;
+}
+h1 {
+    font-family: Crimson Pro;
+    font-size: 300%; 
+    line-height: 80%;
+    margin-bottom: 3%;
+}
+p {
+    font-family: Roboto Mono;
+}
+.email {
+    margin-top: 2%;
+}
+#email {
+    font-family: Roboto Mono;
+    font-size: 17px;
+}
+button {
+    margin-top: 30%;
+    font-family: Roboto Mono;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: white;
+    padding: 2%;
+    border: 3px solid #ff9494;   
+}
+#her {
+    border: 1px solid #ffd600;
+}
+.deskimage-container {
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+}
+.Project-image {
+    width: 100%;
+}
+.project-details {
+    overflow: hidden;
+    padding-left: 5%;
+}
+.h1 {
+    float: left;
+    padding-left: 3.5%;
+}
+.p {
+    overflow: hidden;
+    padding-left: 20px;
+    padding-top: 0.5%;
+}
+.section-title {
+    margin: 5%;
+}
+.read {
+    margin: 10% 0% 10% 0%;
+}
+.footer-content {
+    float: left;
+    padding: 5% 0% 5% 0%;
+    width: 40%;
+    margin-left: 20%;
+}
+.footer-content p {
+    width: 55%;
+}
+ul li {
+    font-family: Roboto Mono;
+    font-size:  16px;
+    padding-right: 12px;
+}
+.footer-container {
+    padding: 5%;
+    margin-left: -5%;
+    width: 10%;
+    overflow: hidden;
+}
+#footer-img {
+    width: 50%;
+}
