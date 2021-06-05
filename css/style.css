@@ -8,6 +8,7 @@ header {
     background-color: white;
     position: fixed;
     top: 0%;
+    box-shadow: 0 20px 20px -20px #78909c;
 }
 .inline-block {
     display: inline-block;
@@ -36,14 +37,7 @@ a:hover {
     color: #3fafff;  
 }
 #hed{
-    border:none;
-    height: 20px;
-    
-      height: 50px;
-      margin-top: 0;
-      border-bottom: 2px solid #ffd600;
-      box-shadow: 0 20px 20px -20px #78909c;
-    margin: -50px auto 10px; 
+    border: 1px solid #ffd600;
   } 
 .hero {
     margin-top: 10%;
@@ -79,14 +73,22 @@ p {
     font-family: Roboto Mono;
     font-size: 17px;
 }
-button {
+div .button {
+    width: 210px;
+}
+.button {
     margin-top: 30%;
     font-family: Roboto Mono;
     font-size: 16px;
     font-weight: bolder;
     background-color: white;
     padding: 2%;
-    border: 3px solid #ff9494;   
+    border: 3px solid #ff9494; 
+    width: 210px;  
+}
+.button:hover {
+    box-shadow: 10px 10px #ff9494;
+    transition: 0.5s;
 }
 #her {
     border: 1px solid #ffd600;
@@ -102,6 +104,7 @@ button {
 .project-details {
     overflow: hidden;
     padding-left: 5%;
+    margin-bottom: 7%;
 }
 .h1 {
     float: left;
@@ -115,14 +118,21 @@ button {
 .section-title {
     margin: 5%;
 }
-.read {
-    margin: 10% 0% 10% 0%;
+div #button2 {
+    width: 183px;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+#button2:hover {
+    box-shadow: 10px 10px #ff9494;
+    transition: 0.5s;
 }
 .footer-content {
     float: left;
     padding: 5% 0% 5% 0%;
     width: 40%;
-    margin-left: 20%;
+    margin-left: 25%;
+    margin-right: -20%;
 }
 .footer-content p {
     width: 55%;
@@ -133,8 +143,7 @@ ul li {
     padding-right: 12px;
 }
 .footer-container {
-    padding: 5%;
-    margin-left: -5%;
+    padding: 8% 5% 5% 4%;
     width: 10%;
     overflow: hidden;
 }
